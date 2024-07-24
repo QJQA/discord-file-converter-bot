@@ -5,7 +5,6 @@ import requests
 import asyncio
 import io
 import urllib.parse
-from keep_alive import keep_alive
 from collections import Counter
 from datetime import datetime, timedelta
 import logging
@@ -235,10 +234,7 @@ async def reset_stats(ctx):
 
 if __name__ == "__main__":
     logging.info("Starting main.py")
-    keep_alive()
-    logging.info("keep_alive initiated")
     try:
         bot.run(os.environ['DISCORD_TOKEN'])
     except Exception as e:
         logging.critical(f"Failed to start the bot: {e}")
-      #Add main.py
