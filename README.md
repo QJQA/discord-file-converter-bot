@@ -20,8 +20,8 @@ File Convert Bot 始于一个练手项目，但我们相信它有潜力成为更
 
 ## 如何使用
 
-1. 使用[邀请链接]([您的邀请链接](https://discord.com/oauth2/authorize?client_id=1258258162545459332&permissions=108544&integration_type=0&scope=bot+applications.commands)![image](https://github.com/user-attachments/assets/308ccf97-4c00-4fd2-9675-bbba5246c223)
-)将 File Convert Bot 添加到您的 Discord 服务器
+1. 使用邀请链接(https://discord.com/oauth2/authorize?client_id=1258258162545459332&permissions=108544&integration_type=0&scope=bot+applications.commands)
+将 File Convert Bot 添加到您的 Discord 服务器
 2. 在服务器中，使用 `!fc_help` 命令查看详细使用说明
 3. 上传您想要转换的文件，并使用相应的命令指定目标格式
 4. 稍等片刻，机器人将为您提供转换后的文件
