@@ -1,39 +1,84 @@
-# Discord File Converter Bot
+# File Convert Bot
 
-## 项目介绍
-Discord File Converter Bot 是一个帮助用户在Discord平台上进行文件格式转换的机器人应用。通过简单的命令，用户可以将各种文件格式转换为所需格式，无需下载任何软件。
+欢迎来到 File Convert Bot 项目！这是一个开源的 Discord 机器人，旨在提供便捷的文件格式转换服务。无论您是想学习、贡献还是simply使用这个机器人，都欢迎您的参与！
 
-### 功能特色
-- **文件格式转换**：支持多种文件格式转换。
-- **易于使用**：通过简单的命令即可完成文件转换。
+## 项目愿景
 
-## 使用指南
+File Convert Bot 始于一个练手项目，但我们相信它有潜力成为更大更好的东西。我们希望通过这个项目：
 
-### 1. 添加机器人到你的Discord服务器
-点击以下链接将Discord File Converter Bot添加到你的服务器：https://discord.com/oauth2/authorize?client_id=1258258162545459332&permissions=108544&integration_type=0&scope=bot+applications.commands
+- 为 Discord 用户提供有用的文件转换工具
+- 为想学习 Discord 机器人开发的人提供一个实际的例子
+- 建立一个友好的开发者社区，共同学习和成长
+- 探索更多的可能性，也许有一天能孵化出更大的项目！
 
-### 2. 使用命令进行文件转换
-在你的Discord服务器中，使用以下命令进行文件格式转换：
-<上传的文件>!convert <目标文件格式> 
-例如，上传一个PDF文档，并在对话框里输入!convert docx，机器人会将该文档转换为word文件。
+## 主要特性
 
-### 3. 使用命令 查看帮助
-!fc_help: 显示帮助信息和命令列表
-!formats: 查看支持文件的格式
+- 支持多种文件格式互相转换，包括 PDF、DOCX、PPTX、MP3、EPUB、MOBI、BMP 等
+- 简单直观的用户界面
+- 快速高效的转换过程
+- 文件大小支持最大 100MB
+
+## 如何使用
+
+1. 使用[邀请链接]([您的邀请链接](https://discord.com/oauth2/authorize?client_id=1258258162545459332&permissions=108544&integration_type=0&scope=bot+applications.commands)![image](https://github.com/user-attachments/assets/308ccf97-4c00-4fd2-9675-bbba5246c223)
+)将 File Convert Bot 添加到您的 Discord 服务器
+2. 在服务器中，使用 `!fc_help` 命令查看详细使用说明
+3. 上传您想要转换的文件，并使用相应的命令指定目标格式
+4. 稍等片刻，机器人将为您提供转换后的文件
+
+## 命令列表
+
+- `!fc_help`: 显示帮助信息和命令列表
+- `!convert [目标格式]`: 转换上传的文件到指定格式
+- (可以根据实际情况添加更多命令)
 
 ## 技术实现
 
-File Convert Bot 使用先进的技术来提供高效的文件转换服务。我们利用 Discord API 来实现机器人功能，并集成了强大的文件转换服务。
+File Convert Bot 的开发和部署涉及以下技术和平台：
 
-## 使用条款
-File Convert Bot 是一个专有软件。未经明确许可，不得复制、修改、分发或使用本软件的源代码。使用本机器人即表示您同意遵守我们的使用条款。
+1. **Replit**: 用于代码开发和初步测试
+2. **GitHub**: 用于代码版本控制和存储
+3. **Railway**: 用于应用程序的持续部署和托管
+4. **Discord API**: 用于实现 Discord 机器人功能
+5. **Convertio API**: 用于实现文件格式转换功能
 
-## 隐私政策
-我们重视您的隐私。File Convert Bot 不会存储用户上传的文件或转换后的文件。所有文件在转换完成后立即删除。详细的隐私政策请参见此处。
+## 如何贡献
+
+我们欢迎并鼓励所有形式的贡献！无论您是想修复bug、添加新功能，还是改进文档，您的贡献都将受到热烈欢迎。以下是参与的步骤：
+
+1. Fork 这个仓库
+2. 创建您的特性分支 (`git checkout -b feature/AmazingFeature`)
+3. 提交您的更改 (`git commit -m 'Add some AmazingFeature'`)
+4. 推送到分支 (`git push origin feature/AmazingFeature`)
+5. 开启一个 Pull Request
+
+不要担心您的技能水平如何，每个人都有贡献的空间。如果您不确定如何开始，可以查看 Issues 页面，那里可能有一些适合新手的任务。
+
+## 未来计划
+
+我们有许多令人兴奋的想法要实现，例如：
+
+- 支持更多的文件格式
+- 改进用户界面和体验
+- 添加批量转换功能
+- 集成更多的API和服务
+
+如果您有任何建议或想法，请随时提出 Issue 或 Pull Request！
+
+## 许可证
+
+本项目采用 MIT 许可证。查看 [LICENSE](LICENSE) 文件以获得更多信息。
 
 ## 联系方式
-如果您在使用过程中遇到任何问题或有任何建议，请联系我们：
+
+如果您有任何问题、建议，或者只是想聊聊天，欢迎联系我：
+
 Email: wuye.t@foxmail.com
 
-## 免责声明
-File Convert Bot 按"原样"提供，不提供任何明示或暗示的保证。我们不对因使用本机器人而导致的任何损失或损害负责。
+## 致谢
+
+- 感谢所有贡献者和支持者
+- 感谢 Discord API 提供的强大功能支持
+- 感谢 Convertio API 提供的文件转换服务
+
+让我们一起打造Something Amazing吧！
