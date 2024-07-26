@@ -24,8 +24,7 @@ File Convert Bot started as a practice project, but we believe it has the potent
 
 ## How to Use
 
-1.Use the <a href="https://discord.com/oauth2/authorize?client_id=1258258162545459332&permissions=108544&scope=bot" target="_blank">invitation link</a> to add File Convert Bot to your Discord server
-
+1. Use the <a href="https://discord.com/oauth2/authorize?client_id=1258258162545459332&permissions=108544&scope=bot" target="_blank">invitation link</a> to add File Convert Bot to your Discord server
 2. In the server, use the `!fc_help` command to view detailed instructions
 3. Upload the file you want to convert and use the appropriate command to specify the target format
 4. Wait a moment, and the bot will provide you with the converted file
