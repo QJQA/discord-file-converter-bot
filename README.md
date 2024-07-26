@@ -1,6 +1,91 @@
 # File Convert Bot
 
-欢迎来到 File Convert Bot 项目！这是一个开源的 Discord 机器人，旨在提供便捷的文件格式转换服务。无论您是想学习、贡献还是simply使用这个机器人，都欢迎您的参与！
+[English](#english) | [中文](#中文)
+
+# English
+
+Welcome to the File Convert Bot project! This is an open-source Discord bot designed to provide convenient file format conversion services. Whether you want to learn, contribute, or simply use this bot, your participation is welcome!
+
+## Project Vision
+
+File Convert Bot started as a practice project, but we believe it has the potential to become something bigger and better. Through this project, we hope to:
+
+- Provide a useful file conversion tool for Discord users
+- Offer a practical example for those wanting to learn Discord bot development
+- Build a friendly developer community for learning and growing together
+- Explore more possibilities, and perhaps one day incubate larger projects!
+
+## Main Features
+
+- Support for converting between various file formats, including PDF, DOCX, PPTX, MP3, EPUB, MOBI, BMP, and more
+- Simple and intuitive user interface
+- Fast and efficient conversion process
+- Support for files up to 100MB in size
+
+## How to Use
+
+1. Use the [invitation link](https://discord.com/oauth2/authorize?client_id=1258258162545459332&permissions=108544&integration_type=0&scope=bot+applications.commands!)
+to add File Convert Bot to your Discord server
+2. In the server, use the `!fc_help` command to view detailed instructions
+3. Upload the file you want to convert and use the appropriate command to specify the target format
+4. Wait a moment, and the bot will provide you with the converted file
+
+## Command List
+
+- `!fc_help`: Display help information and command list
+- `!convert [target format]`: Convert the uploaded file to the specified format
+- (Add more commands as applicable)
+
+## Technical Implementation
+
+The development and deployment of File Convert Bot involves the following technologies and platforms:
+
+1. **Replit**: Used for code development and initial testing
+2. **GitHub**: Used for code version control and storage
+3. **Railway**: Used for continuous deployment and hosting of the application
+4. **Discord API**: Used to implement Discord bot functionality
+5. **Convertio API**: Used to implement file format conversion functionality
+
+## How to Contribute
+
+We welcome and encourage all forms of contribution! Whether you want to fix bugs, add new features, or improve documentation, your contributions will be warmly welcomed. Here are the steps to participate:
+
+1. Fork this repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+Don't worry about your skill level; there's room for everyone to contribute. If you're not sure how to start, check out the Issues page, where there might be some tasks suitable for beginners.
+
+## Future Plans
+
+We have many exciting ideas to implement, such as:
+
+- Support for more file formats
+- Improving user interface and experience
+- Adding batch conversion functionality
+- Integrating more APIs and services
+
+If you have any suggestions or ideas, please feel free to raise an Issue or submit a Pull Request!
+
+## Contact
+
+If you have any questions, suggestions, or just want to chat, feel free to contact me:
+
+Email: wuye.t@foxmail.com
+
+## Acknowledgements
+
+- Thanks to all contributors and supporters
+- Thanks to Discord API for providing powerful functionality support
+- Thanks to Convertio API for providing file conversion services
+
+Let's create Something Amazing together!
+
+# 中文
+
+欢迎来到 File Convert Bot 项目！这是一个开源的 Discord 机器人，旨在提供便捷的文件格式转换服务。无论您是想学习、贡献还是简单使用这个机器人，都欢迎您的参与！
 
 ## 项目愿景
 
@@ -20,7 +105,7 @@ File Convert Bot 始于一个练手项目，但我们相信它有潜力成为更
 
 ## 如何使用
 
-1. 使用邀请链接(https://discord.com/oauth2/authorize?client_id=1258258162545459332&permissions=108544&integration_type=0&scope=bot+applications.commands)
+1. 使用[邀请链接](https://discord.com/oauth2/authorize?client_id=1258258162545459332&permissions=108544&integration_type=0&scope=bot+applications.commands!)
 将 File Convert Bot 添加到您的 Discord 服务器
 2. 在服务器中，使用 `!fc_help` 命令查看详细使用说明
 3. 上传您想要转换的文件，并使用相应的命令指定目标格式
@@ -65,7 +150,6 @@ File Convert Bot 的开发和部署涉及以下技术和平台：
 
 如果您有任何建议或想法，请随时提出 Issue 或 Pull Request！
 
-
 ## 联系方式
 
 如果您有任何问题、建议，或者只是想聊聊天，欢迎联系我：
@@ -78,4 +162,4 @@ Email: wuye.t@foxmail.com
 - 感谢 Discord API 提供的强大功能支持
 - 感谢 Convertio API 提供的文件转换服务
 
-让我们一起打造Something Amazing吧！
+让我们一起打造美好的事物吧！
