@@ -65,9 +65,6 @@ File Convert Bot 的开发和部署涉及以下技术和平台：
 
 如果您有任何建议或想法，请随时提出 Issue 或 Pull Request！
 
-## 许可证
-
-本项目采用 MIT 许可证。查看 [LICENSE](LICENSE) 文件以获得更多信息。
 
 ## 联系方式
 
